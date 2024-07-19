@@ -1,0 +1,50 @@
+[
+  {
+    "desc": "Dark Trip, tienda de Skateboarding y Vestuario",
+    "id": "P001",
+    "img": "https://scene7.zumiez.com/is/image/zumiez/product_main_medium/Etnies-Callicut-Black-%26-White-Skate-Shoes-_382163-alt7-US.jpg",
+    "ingredients": ["mozzarella", "tomates", "jamón", "orégano"],
+    "name": "zapatillas etnies",
+    "price": 59500
+  },
+  {
+    "desc": "Dark Trip, tienda de Skateboarding y Vestuario",
+    "id": "P002",
+    "img": "https://nhsskatedirect.com/cdn/shop/products/67773_1000x.jpg?v=1657209586",
+    "ingredients": ["mozzarella", "tomates", "jamón", "choricillo"],
+    "name": "Tabla Santa Cruz",
+    "price": 72500
+  },
+  {
+    "desc": "Dark Trip, tienda de Skateboarding y Vestuario",
+    "id": "P003",
+    "img": "https://www.hokiskateboards.com/wp-content/uploads/2018/11/mens.jpg",
+    "ingredients": ["mozzarella", "tomates", "salame", "orégano"],
+    "name": "Polera Hoki",
+    "price": 19990
+  },
+  {
+    "desc": "Dark Trip, tienda de Skateboarding y Vestuario",
+    "id": "P004",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/1/11/Fallen_Footwear_Shoes.jpg",
+    "ingredients": ["mozzarella", "salame", "aceitunas", "champiñones"],
+    "name": "Zapatilla Etnies",
+    "price": 45500
+  },
+  {
+    "desc": "Dark Trip, tienda de Skateboarding y Vestuario",
+    "id": "P005",
+    "img": "https://cdnx.jumpseller.com/life-boardshop/image/49179388/resize/400/400?1716829236",
+    "ingredients": ["mozzarella", "tomates cherry", "bacon", "orégano"],
+    "name": "Ruedas Spitfire",
+    "price": 25000
+  },
+  {
+    "desc": "Dark Trip, tienda de Skateboarding y Vestuario",
+    "id": "P006",
+    "img": "https://www.brailleskateboarding.com/cdn/shop/products/classic-braille-hat-1_2048x.jpg?v=1648851902",
+    "ingredients": ["mozzarella", "pimientos", "pollo grillé", "orégano"],
+    "name": "Gorro Braile",
+    "price": 19950
+  }
+]

@@ -1,14 +1,14 @@
 {
   "scripts": {
     "start": "node index.js"
-  }
+  },
   "name": "api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "index.js",
+    "start": "node index.js",
     "test": "jest --forceExit"
   },
   "keywords": [],

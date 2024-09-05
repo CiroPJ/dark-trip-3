@@ -4,13 +4,8 @@ const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: {
     rejectUnauthorized: false,
-  host: process.env.PGHOST,
-  user: process.env.PGUSER,
-  password: process.env.PGPASSWORD,
-  database: process.env.PGDATABASE,
-  allowExitOnIdle: true,
-  port: process.env.PGPUERTO,
-  // ssl: true
+  },
+  // Los parámetros host, user, password, database y port se definen en connectionString.
 });
 
 pool.connect()
@@ -18,10 +13,12 @@ pool.connect()
   .catch(err => console.error('Database connection error', err));
 
 try {
-  pool.query("SELECT NOW()");
-  console.log("Database connected!!!!");
+  pool.query("SELECT NOW()")
+    .then(() => console.log("Database query successful!"))
+    .catch(err => console.error('Database query error', err));
 } catch (error) {
-  console.log(error);
+  console.error('Unexpected error', error);
 }
 
-module.exports = { pool }
+module.exports = { pool };
+

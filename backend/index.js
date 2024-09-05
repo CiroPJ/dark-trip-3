@@ -16,7 +16,9 @@ const PORT = process.env.PGPORT || 3000;
 const route = require("./routes/route.js");
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: 'https://dark-trip-3.netlify.app',  // URL del frontend en Netlify
+}));
 app.use("/", route);
 
 //Levanta el servidor
